@@ -1,6 +1,5 @@
-# TASK 1 Network Port Scanning
-## Objective: Learn to discover open ports on devices in your local network to
-  understand network exposure.
+# TASK-1 : Network Port Scanning
+## Objective: Learn to discover open ports on devices in your local network to understand network exposure.
 ## Tools used :
    Nmap(Zenmap) 
    Wireshark (Optional)
@@ -14,7 +13,7 @@
 ## Open Ports Found
 | Port | Service -     |Description
 |------|---------------|----------------------------------------------------------|
-| 135  | MSRPC         | windows RPC- internal use
+| 135  | MSRPC         | Windows RPC- internal use
 | 139  | NetBioc -.    | File sharing (legacy)
 | 445  | Microsoft-DS  | SMB file sharing 903 ISS Console Mgr Rare service-admin use?
 

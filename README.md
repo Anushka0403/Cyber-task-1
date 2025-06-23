@@ -34,3 +34,4 @@
 This task helped me understand port scanning, open port risks, and basic network security assessment.
 
   
+![Screenshot 2025-06-23 122024](https://github.com/user-attachments/assets/fea910e4-2b42-4403-b6a0-f06d497e13d2)

@@ -28,9 +28,7 @@
 
 8.
 ## Screenshot ![Scan Result]
-![Screenshot 2025-06-23 210854](https://github.com/user-attachments/assets/f3a4690b-a31f-4814-879c-8a21b6d21ad6)
-
-
+![Screenshot 2025-06-23 211207](https://github.com/user-attachments/assets/1434cfa3-c20c-404c-8377-e41055e70390)
  
 ## Conclusion
 This task helped me understand port scanning, open port risks, and basic network security assessment.

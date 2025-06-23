@@ -2,12 +2,12 @@
 ## Objective: Learn to discover open ports on devices in your local network to
   understand network exposure.
 ## Tools used :
-   Nmap 
-   Wireshark
+   Nmap(Zenmap) 
+   Wireshark (Optional)
 ## Steps Taken
-1. Found my IP range using ipconfig - 192.168.90.0/24
-2. Ran Nmap TCP SYN scan using Zenmap
-3. Saved scan resultc .. .txt" and ".htmi`.
+1. Found my IP range using ipconfig - 192.168.1.0/24
+2. Run Nmap TCP SYN scan using Zenmap
+3. Saved scan resultc .. .txt" and ".html`.
 4. Took screenshots of scan results.
 5. Analyzed open ports and identified possible risks
 6. 
@@ -17,19 +17,20 @@
 | 135  | MSRPC         | windows RPC- internal use
 | 139  | NetBioc -.    | File sharing (legacy)
 | 445  | Microsoft-DS  | SMB file sharing 903 ISS Console Mgr Rare service-admin use?
-| 1117 | Ardus-MTRNS   | Unknown- likely custon service
+
 7.
-## lock Risk Analysis
+## Risk Analysis
 | Port | Risk Level  | Recommendation
 |------|-------------|----------------------------------------------------------------------------------------------------------|
 | 135  |   Medium    | Block externally
 | 139  |    High     | Disable if not in use N 
 | 445  |    High     | Restrict to trusted devices
-| 903  |   Medium    | Investigate purpose
-| 1117 |   Medium    | Block unless explicitly required
-8.
-## Screenshot ![Scan Result](zenmap_result.png)
 
+8.
+## Screenshot ![Scan Result]
+![Screenshot 2025-06-23 122024](https://github.com/user-attachments/assets/03043a0f-a195-4d65-9d74-8d57ef2aedf0)
+
+ 
 ## Conclusion
 This task helped me understand port scanning, open port risks, and basic network security assessment.
 
